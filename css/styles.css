@@ -104,7 +104,6 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
   position: absolute;
-  /* top: 20px; */
 }
 
 .contacts {
@@ -145,7 +144,8 @@ img {
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  max-width: 1440px;
   padding: 188px 0;
 }
 
