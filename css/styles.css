@@ -339,20 +339,20 @@ a.link.active:hover::after {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-items{
-   width: 40px;
-   height: 40px;
+.social-items {
+  width: 40px;
+  height: 40px;
 }
 
 .card-info .section-text {
   text-align: center;
 }
 
-.social-list > .icon-social{
+.icon-social {
   fill: #f4f4fd;
 }
 
