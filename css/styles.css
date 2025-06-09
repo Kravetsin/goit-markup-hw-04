@@ -58,7 +58,6 @@ img {
   text-transform: uppercase;
   margin-right: 76px;
   color: #4d5ae5;
-  padding: 24px 0;
 }
 
 .top-line > .container {
@@ -111,7 +110,7 @@ a.link.active::after {
   border-radius: 2px;
   opacity: 0;
   position: absolute;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 a.link.active:hover::after {
@@ -372,7 +371,16 @@ a.link.active:hover::after {
 }
 
 .project-card {
+  cursor: pointer;
   width: calc((100% - 48px) / 3);
+}
+
+.project-card:hover,
+.project-card:focus {
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-info {
@@ -394,6 +402,38 @@ a.link.active:hover::after {
   height: 312px;
   background-color: #2e2f42;
   padding: 100px 0;
+}
+
+.end-page > .container {
+  display: flex;
+}
+
+.container .footer-socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-socials .social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-socials .icon-social {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-socials .social-link {
+  padding: 0;
+  margin: auto;
+}
+
+.footer-socials .page-text {
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  margin-right: 100px;
 }
 
 .end-page a {
