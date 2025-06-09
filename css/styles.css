@@ -98,6 +98,10 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.nav-list li:first-child .link {
+  color: #404bbf;
+}
+
 .link:hover,
 .link:focus {
   color: #404bbf;
@@ -384,7 +388,7 @@ a.link.active:focus::after {
 }
 
 .project-card:hover .portfolio-hover,
-.project-card:focus .portfolio-hover{
+.project-card:focus .portfolio-hover {
   transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -429,6 +433,7 @@ a.link.active:focus::after {
 
 .end-page > .container {
   display: flex;
+  align-items: baseline;
 }
 
 .container .footer-socials {
@@ -442,9 +447,17 @@ a.link.active:focus::after {
 }
 
 .footer-socials .page-text {
+  color: #ffffff;
+  font-weight: 500;
   margin-bottom: 16px;
 }
 
 .footer-text {
-  margin-right: 100px;
+  margin-right: 120px;
+}
+
+.footer-socials .social-link:hover,
+.footer-socials .social-link:focus {
+  background-color: #31d0aa;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
