@@ -441,25 +441,10 @@ a.link.active:focus::after {
   gap: 16px;
 }
 
-.footer-socials .icon-social {
-  width: 24px;
-  height: 24px;
-}
-
-.footer-socials .social-link {
-  padding: 0;
-  margin: auto;
-}
-
 .footer-socials .page-text {
   margin-bottom: 16px;
 }
 
 .footer-text {
   margin-right: 100px;
-}
-
-.end-page a {
-  display: inline-block;
-  margin-bottom: 16px;
 }
