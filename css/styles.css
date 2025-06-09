@@ -68,6 +68,8 @@ img {
 
 .top-line {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .top-line .page-nav .span-logo {
@@ -93,6 +95,7 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
   color: #2e2f42;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
@@ -111,6 +114,7 @@ a.link.active::after {
   opacity: 0;
   position: absolute;
   transition: 0.4s;
+  background-color: #404bbf;
 }
 
 a.link.active:hover::after {
@@ -214,6 +218,7 @@ a.link.active:hover::after {
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
@@ -262,16 +267,12 @@ a.link.active:hover::after {
   margin-bottom: 8px;
 }
 
-.icon {
-  display: block;
-  margin: auto;
-  width: 64px;
-  height: 64px;
-}
-
 .icon-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #f4f4fd;
-  padding: 24px 100px;
+  height: 112px;
   margin-bottom: 8px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
@@ -321,6 +322,7 @@ a.link.active:hover::after {
 
 .social-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
