@@ -326,17 +326,6 @@ a.link.active:hover::after {
   gap: 24px;
 }
 
-.social-link:hover,
-.social-link:focus {
-  background-color: #31d0aa;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-items{
-   width: 40px;
-   height: 40px;
-}
-
 .social-link {
   display: flex;
   align-items: center;
@@ -345,10 +334,26 @@ a.link.active:hover::after {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #404BBF;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-items{
+   width: 40px;
+   height: 40px;
 }
 
 .card-info .section-text {
   text-align: center;
+}
+
+.social-list > .icon-social{
+  fill: #f4f4fd;
 }
 
 /* !Our Portfolio */
